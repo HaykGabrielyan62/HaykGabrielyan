@@ -27,7 +27,7 @@ body {
 }
 #mainsection{
     height: 640px;
-    background-image: url(".\pics\back2.JPG");
+    background-image: url("pics/back2.jpg");
     background-size: cover;
 }
 #banner{
