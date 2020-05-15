@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+#header{
+    border-bottom: #76b593;
+    border-bottom-style: solid;
+    background-color: white;
+    opacity: 0.5;
+    height: 130px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+#logo{
+    float: left;
+}
+#mainnav{
+    float: right;
+}
+.mainmenu{
+    text-decoration: underline;
+    color: #76B593;
+    font-size: 17px;
+    font-family: Arial;
+}
+#mainsection{
+    height: 640px;
+    background-image: url("../Html project/pics/back2.JPG");
+    background-size: cover;
+}
+#banner{
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    border: 12px;
+    border-style: solid;
+    border-color: white;
+}
+#h1banner{
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+#pbanner{
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+#footer{
+    height: 80px;
+    background-color: #0c5460;
+    border-top-color: #76b593;
+    border-top-style: solid;
+}
