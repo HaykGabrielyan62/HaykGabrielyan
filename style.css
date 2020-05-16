@@ -4,8 +4,6 @@ body {
 
 }
 #header{
-    border-bottom: #76b593;
-    border-bottom-style: solid;
     background-color: white;
     opacity: 0.5;
     height: 130px;
@@ -24,6 +22,9 @@ body {
     color: #76B593;
     font-size: 17px;
     font-family: Arial;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
 }
 #mainsection{
     height: 640px;
@@ -52,8 +53,55 @@ body {
     font-weight: bold;
 }
 #footer{
-    height: 80px;
+    height: 160px;
     background-color: #0c5460;
     border-top-color: #76b593;
     border-top-style: solid;
 }
+#secsection{
+    height: 400px;
+    position: relative;
+}
+.secsectionchild{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    right: 0;
+    position: relative;
+}
+.detailsp{
+    color: #0c5460;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+}
+#sectionpic{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#secsectiontitle{
+    color: #0c5460;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 320px;
+
+}
+.button{
+    background-color: #76B593;
+    border-style: solid;
+    border: 1px;
+    border-color: #76B593;
+    font-family: Arial;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 40px;
+
+}
+
